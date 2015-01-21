@@ -17,6 +17,7 @@ h4, h5, h6, p { text-align: left; }
 }
 .reveal table { margin: inherit; }
 .reveal table td { padding: 5px 20px 5px 20px; }
+.reveal table thead tr td { font-weight: bold; }
 
 .layout-title h1, .layout-title h2, .layout-title h3, .layout-title h4, .layout-title h5, .layout-title h6 {
   text-align: center;
