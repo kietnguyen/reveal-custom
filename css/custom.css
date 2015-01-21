@@ -1,0 +1,36 @@
+h4, h5, h6, p { text-align: left; }
+.reveal h5, .reveal h6 { margin-bottom: 5px; }
+.reveal ul, .reveal ol {
+  display: block;
+  margin: inherit;
+}
+.reveal h1 { font-size: 2.15em; }
+.reveal h2 {
+  font-size: 1.75em;
+  margin-bottom: 0.6em;
+}
+.reveal h3 { font-size: 1.4em; }
+.reveal h4 {
+  font-size: 1.2em;
+  margin-top: 0.6em;
+  margin-bottom: 10px;
+}
+.reveal table { margin: inherit; }
+.reveal table td { padding: 5px 20px 5px 20px; }
+
+.layout-title h1, .layout-title h2, .layout-title h3, .layout-title h4, .layout-title h5, .layout-title h6 {
+  text-align: center;
+}
+.layout-title h1 {
+  line-height: 1.05em;
+  margin-bottom: 2em;
+}
+.layout-title h3 {
+  line-height: 0.65em;
+}
+
+ol.ol-align {
+  margin-left: 1em;
+}
+.reveal li { margin-left: 1.25em; }
+.reveal ul ul { margin-left: 0; }
