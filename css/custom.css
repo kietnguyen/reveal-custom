@@ -35,3 +35,5 @@ ol.ol-align {
 }
 .reveal li { margin-left: 1.25em; }
 .reveal ul ul { margin-left: 0; }
+
+.reveal p { margin-bottom: 0; }
