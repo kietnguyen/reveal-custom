@@ -77,14 +77,14 @@ Reveal.initialize({
     { src: '../../lib/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
 
     // Interpret Markdown in <section> elements
-    { src: '../../lib/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-    { src: '../../lib/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+    //{ src: '../../lib/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+    //{ src: '../../lib/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
 
     // Syntax highlight for <code> elements
     { src: '../../lib/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
 
     // Zoom in and out with Alt+click
-    { src: '../../lib/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+    //{ src: '../../lib/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
 
     // Speaker notes
     { src: '../../lib/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
@@ -93,7 +93,7 @@ Reveal.initialize({
     //{ src: '../../lib/reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } },
 
     // MathJax
-    { src: '../../lib/reveal.js/plugin/math/math.js', async: true }
+    //{ src: '../../lib/reveal.js/plugin/math/math.js', async: true }
   ]
 });
 
